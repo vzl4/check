@@ -1,0 +1,1 @@
+const r=(e,t)=>{const l={lastCall:0,lastCallTimer:0};return function(...o){const s=this,a=l.lastCall;l.lastCall=Date.now(),a&&l.lastCall-a<=t&&clearTimeout(l.lastCallTimer),l.lastCallTimer=setTimeout(()=>{e.apply(s,o)},t)}};export{r as d};

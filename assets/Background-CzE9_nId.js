@@ -1,0 +1,1 @@
+import{R as n,j as t,e}from"./main-Cz_EDjso.js";const u="_background_1oylz_1",d={background:u},m=s=>{const{src:a,className:o,style:c,id:r}=s;return t.jsx("div",{id:r,className:e(o,d.background),style:{backgroundImage:`url(${a})`,...c||{}}})},l=n.memo(m);export{l as B};

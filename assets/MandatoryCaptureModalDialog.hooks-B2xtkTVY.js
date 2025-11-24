@@ -1,0 +1,1 @@
+import{$ as s,a1 as o,r as n,aS as u}from"./main-Cz_EDjso.js";const i=r=>{const a=s(t=>t.gameSettings.isMandatoryTaken),e=o(t=>t.gameSettings.updateMandatoryCaptureByUi);return n.useCallback(t=>{e(t),t!==a&&u.trackSwitchMandatoryCapture(t,r)},[a,e])};export{i as u};

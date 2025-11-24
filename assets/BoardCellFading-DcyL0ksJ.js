@@ -1,0 +1,1 @@
+import{R as r,a as d,j as e}from"./main-Cz_EDjso.js";const i="_boardFading_1bewj_1",g={boardFading:i},c=t=>{const{size:a}=t,n=d(s=>{const o=s.config.boardFading>0?255:0;return`rgba(${o}, ${o}, ${o}, ${Math.abs(s.config.boardFading)})`});return e.jsx("div",{className:g.boardFading,style:{...a&&{width:a,height:a},backgroundColor:n}})},l=r.memo(c);export{l as B};

@@ -1,0 +1,1 @@
+const n={male:{human:13,"non-human":0},female:{human:35,"non-human":0}},a={male:{human:188,"non-human":0},female:{human:283,"non-human":0}},m={male:{human:1,"non-human":5},female:{human:3,"non-human":2}},e={beginner:n,advanced:a,ai:m};export{a as advanced,m as ai,n as beginner,e as default};
